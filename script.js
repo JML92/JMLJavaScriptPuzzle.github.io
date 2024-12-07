@@ -57,7 +57,7 @@ function moveDrag(event) {
 //Identify location of event
 function getCoords(event) {
    var coords = [];
-   if (event.targetTouches && event.targtTouches.length) {
+   if (event.targetTouches && event.targetTouches.length) {
       var thisTouch = event.targetTouches[0];
       coords[0] = thisTouch.clientX;
       coords[1] = thisTouch.clientY;
